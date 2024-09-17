@@ -1,0 +1,40 @@
+/* .container-book{
+    border: 3px solid #1e4b77;
+} */
+section{
+    border: 1px solid #131518;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.book-description{
+    margin: 20px;
+    margin-top: none;
+}
+
+.container-book h3{
+    display: inline-block;
+    margin: 0;
+}
+
+.container-book img{
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    border: 1px solid #131518;
+}
+.container-book button{
+
+        background-color: #3498db; /* Fondo azul */
+        color: white; /* Texto en blanco */
+        font-size: 16px; /* Tamaño del texto */
+        padding: 10px 20px; /* Espaciado interno */
+        border: none; /* Sin borde */
+        border-radius: 5px; /* Bordes redondeados */
+        cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+        text-transform: uppercase; /* Texto en mayúsculas */
+        font-weight: bold; /* Negrita */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        transition: background-color 0.3s ease, transform 0.2s ease; /* Transición suave para color y transformación */
+    
+}

@@ -1,0 +1,33 @@
+.book-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.book-card h3{
+    text-decoration: underline;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif, Tahoma, Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+.book-card img{
+    border: 2px solid #131518;
+    align-self: center;
+    width: 200px;
+    height: 300px;
+}
+
+.book-card button{
+    background-color: #3498db; /* Fondo azul */
+    color: white; /* Texto en blanco */
+    font-size: 16px; /* Tamaño del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    font-weight: bold; /* Negrita */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transición suave para color y transformación */
+
+}

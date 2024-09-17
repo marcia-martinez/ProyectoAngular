@@ -1,0 +1,60 @@
+.totalContainer{
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-areas: 
+    ". title title ."
+    ". sidebar main .";
+    
+  grid-template-columns: 2fr 2fr 5fr 2fr;
+}
+
+.totalContainer h1{
+  border: 3px solid #1e4b77;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background-color: #92BFB1;
+  grid-area: title;
+  font-family: algerian, 'Montserrat', Verdana, Geneva, sans-serif;
+  color: #262698;
+}
+
+.totalContainer nav{
+  border: 3px solid #1e4b77;
+  border-top: none;
+  background-color: #92BFB1;
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.totalContainer main{
+  border: 3px solid #1e4b77;
+  border-left: none;
+  border-top: none;
+  background-color: #92BFB1;
+  grid-area: main;
+  padding: 20px;
+
+}
+
+.activeButton {
+    color: red;
+}
+
+.buttonForm {
+    margin-right: 10px;
+    border: 1px solid #84bbf3;
+    margin-left: 15px;
+    margin-top: 7px;
+    padding: 7px 2px 7px 5px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+.buttonForm:first-child {
+  margin-top: 20px;
+}
